@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+}
+
+.homeBackground {
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-start;
+	background-image: url("../a1/image/restaurant.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 580px;
+}
+
+.navigateBar {
+    display: flex;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-between;
+}
+
+.nav {text-decoration: none;
+    /*background-color: rgba(255,255,255,0.9);*/
+    border-top: 5px solid rgb(5, 5, 5);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.nav a {
+	text-decoration: none;
+	color: rgb(8, 8, 8);
+}
+
+.nav li {	
+    display: inline; 
+    height: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+	margin-right: 55px;
+	font-size: 25px;
+}
+
+.active a{
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: rgb(112, 109, 109);
+	border-radius: 50px;
+	color: rgb(255, 255, 255);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+.logo {
+	width: 1px;
+    height: 1px;
+}
+
+.six-columns {
+	padding-left: 150px;
+	padding-right: 150px;
+	width: 70%;
+}
+
+.five-colums {
+	padding-left: 6.5px;
+	padding-right: 6.5px;
+	width: 41.666666%;
+}
+
+.image {
+	width: 550px;
+    height: auto;
+}
+
+.container {
+	display: flex;
+	width: 1100px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.between {
+	justify-content: space-between;
+}
+
+.tab { 
+	tab-size: 13;
+}
+
+pre {
+	font-family: Verdana, "Bitstream Vera Sans", Geneva, sans-serif;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.conFooter {
+	display: flex;
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-around;
+}
+
+.f {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h4 {
+	color: #707070;
+	font-size: .57rem;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.space3 {
+	margin-top: 20px;
+}
+
+h5 {
+	color: #707070;
+	font-size: .57rem;
+	font-weight: bolder;
+	line-height: 1.5;
+}
+
+
+footer{
+	border-top: .5px solid #707070;
+	padding-top: 40px;
+	color: #707070;
+	font-size: .57rem;
+	font-weight: normal;
+	line-height: 1.5;
+	padding-bottom: 42px;
+}
+
+.flex {
+	display: flex;
+}
+.space2 {
+	margin-top: 50px;
+}
+
+.around {
+	justify-content: space-around;
+}
